@@ -1,0 +1,50 @@
+{% extends '@nucleus/partials/particle.html.twig' %}
+{% pageblock body_top %}
+{% block stylesheets %}
+    {% if particle.enabled %}
+        {{ parent() }}
+        {% if particle.theme|default('style-1') == 'style-1' %}
+            <link rel="stylesheet" href="{{ url('gantry-theme://css/scrollbar/scrollbar-1.css') }}" type="text/css"/>
+        {% endif %}
+        {% if particle.theme|default('style-1') == 'style-2' %}
+            <link rel="stylesheet" href="{{ url('gantry-theme://css/scrollbar/scrollbar-2.css') }}" type="text/css"/>
+        {% endif %}
+        {% if particle.theme|default('style-1') == 'style-3' %}
+            <link rel="stylesheet" href="{{ url('gantry-theme://css/scrollbar/scrollbar-3.css') }}" type="text/css"/>
+        {% endif %}
+        {% if particle.theme|default('style-1') == 'style-4' %}
+            <link rel="stylesheet" href="{{ url('gantry-theme://css/scrollbar/scrollbar-4.css') }}" type="text/css"/>
+        {% endif %}
+        {% if particle.theme|default('style-1') == 'style-5' %}
+            <link rel="stylesheet" href="{{ url('gantry-theme://css/scrollbar/scrollbar-5.css') }}" type="text/css"/>
+        {% endif %}
+        {% if particle.theme|default('style-1') == 'style-6' %}
+            <link rel="stylesheet" href="{{ url('gantry-theme://css/scrollbar/scrollbar-6.css') }}" type="text/css"/>
+        {% endif %}
+        {% if particle.theme|default('style-1') == 'style-7' %}
+            <link rel="stylesheet" href="{{ url('gantry-theme://css/scrollbar/scrollbar-7.css') }}" type="text/css"/>
+        {% endif %}
+        {% if particle.theme|default('style-1') == 'style-8' %}
+            <link rel="stylesheet" href="{{ url('gantry-theme://css/scrollbar/scrollbar-8.css') }}" type="text/css"/>
+        {% endif %}
+        {% if particle.theme|default('style-1') == 'style-9' %}
+            <link rel="stylesheet" href="{{ url('gantry-theme://css/scrollbar/scrollbar-9.css') }}" type="text/css"/>
+        {% endif %}
+        {% if particle.theme|default('style-1') == 'style-10' %}
+            <link rel="stylesheet" href="{{ url('gantry-theme://css/scrollbar/scrollbar-10.css') }}" type="text/css"/>
+        {% endif %}
+        {% if particle.theme|default('style-1') == 'style-11' %}
+            <link rel="stylesheet" href="{{ url('gantry-theme://css/scrollbar/scrollbar-11.css') }}" type="text/css"/>
+        {% endif %}
+        {% if particle.theme|default('style-1') == 'style-12' %}
+            <link rel="stylesheet" href="{{ url('gantry-theme://css/scrollbar/scrollbar-12.css') }}" type="text/css"/>
+        {% endif %}
+        {% if particle.theme|default('style-1') == 'style-13' %}
+            <link rel="stylesheet" href="{{ url('gantry-theme://css/scrollbar/scrollbar-13.css') }}" type="text/css"/>
+        {% endif %}
+        {% if particle.theme|default('style-1') == 'style-14' %}
+            <link rel="stylesheet" href="{{ url('gantry-theme://css/scrollbar/scrollbar-14.css') }}" type="text/css"/>
+        {% endif %}
+    {% endif %}
+{% endblock %}
+{% endpageblock %}
