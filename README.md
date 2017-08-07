@@ -10,6 +10,7 @@
 
 ## First of alls - Gantry 5 website - http://gantry.org/ & Gantry 5 Documentation - http://docs.gantry.org/
 Purposed to change the default Browser Scroll Bar on WebKit based Browsers !
+
 This version has 14 Scroll Bar Styles, included most used & will be Upgraded from time in time !
 
 ###   Browser Scroll Bar Gantry5 Installation
