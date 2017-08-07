@@ -1,12 +1,13 @@
 ## ScrollBar
 
 
-## Developed by ThemeHow team with love for Gantry Framework & ThemeHow Developed Themes & Clients !
+## Developed by ThemeHow team with #love for Gantry Framework  & ThemeHow Developed Themes & Clients !
 
 ## https://themehow.com
 
 # Browser Scroll Bar Gantry5 !
 
+## First of alls - Gantry 5 website - http://gantry.org/ & Gantry 5 Documentation - http://docs.gantry.org/
 Purposed to change the default Browser Scroll Bar on WebKit based Browsers !
 
 ###   Browser Scroll Bar Gantry5 Installation
