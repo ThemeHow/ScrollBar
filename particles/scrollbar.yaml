@@ -1,5 +1,5 @@
 name: Scroll Bar
-description: Customize website scroll bar
+description: Customize Your Website visitors Browser Scroll Bar
 type: particle
 icon: fa-header
 
@@ -10,10 +10,7 @@ form:
       label: Enabled
       description: Globally enable to the particles.
       default: true
-      
-      
- 
-         
+    
     theme:
       type: select.select
       label: Scrollbar Style
