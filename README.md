@@ -1,7 +1,9 @@
 ## ScrollBar
 
 
-## Developed by ThemeHow team with #love for Gantry Framework  & ThemeHow Developed Themes & Clients !
+## Developed by ThemeHow team with #love 
+
+## For Gantry Framework  &   ThemeHow Developed Themes & Clients !
 
 ## https://themehow.com
 
