@@ -1,0 +1,55 @@
+.scrollbar {
+	margin-left: 22px;
+	float: left;
+	height: 300px;
+	width: 65px;
+	background: #98EBA8;
+	overflow-y: scroll;
+	margin-bottom: 25px;
+}
+
+.force-overflow {
+	min-height: 450px;
+}
+
+#wrapper {
+	text-align: center;
+	margin: auto;
+}
+/*background bara toata */
+::-webkit-scrollbar {
+	width: 10px;
+	background-color: #ff00f1;
+}
+
+/**  STYLE 11 */
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background: rgba(0,0,0,0.1);
+  border: 1px solid #000;
+}
+/* #B30E7A culoare bara fara hover */
+
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: #B30E7A;
+  border: 1px ridge #ff00f1;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #ab00a2;
+    -webkit-box-shadow: 0px 3px 7px 1px #9a00ff;
+    -moz-box-shadow: 0px 3px 7px 1px #9a00ff;
+    box-shadow: 0px 3px 7px 1px #9a00ff;
+}
+
+::-webkit-scrollbar-thumb:active {
+  background: linear-gradient(left, #22ADD4, #1E98BA);.scrollbar {
+  margin-left: 22px;
+  float: left;
+  height: 300px;
+  width: 65px;
+  background: #0092da;
+  overflow-y: scroll;
+  margin-bottom: 25px;
+}

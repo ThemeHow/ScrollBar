@@ -1,0 +1,49 @@
+.scrollbar {
+	margin-left: 22px;
+	float: left;
+	height: 300px;
+	width: 65px;
+	background: #98EBA8;
+	overflow-y: scroll;
+	margin-bottom: 25px;
+}
+
+.force-overflow {
+	min-height: 450px;
+}
+
+#wrapper {
+	text-align: center;
+	margin: auto;
+}
+
+::-webkit-scrollbar {
+	width: 10px;
+	background-color: #b4ebff;
+}
+
+/**  STYLE 11 */
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background: rgba(0,0,0,0.1);
+  border: 1px solid #000;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: #0092da;
+  border: 1px ridge #00248E;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #0056c3;
+}
+
+::-webkit-scrollbar-thumb:active {
+  background: linear-gradient(left, #22ADD4, #1E98BA);.scrollbar {
+  margin-left: 22px;
+  float: left;
+  height: 300px;
+  width: 65px;
+  background: #0092da;
+  overflow-y: scroll;
+  margin-bottom: 25px;
+}
