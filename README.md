@@ -33,8 +33,11 @@ If you wish to be an atom , to use by default in your website with others Gantry
  ## Change -  type: particle with type: atom 
 
  name: Scroll Bar
+ 
 description: Customize website scroll bar
+
 ## type: atom
+
 icon: fa-header
 
 
