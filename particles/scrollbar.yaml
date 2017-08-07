@@ -1,0 +1,45 @@
+name: Scroll Bar
+description: Customize website scroll bar
+type: particle
+icon: fa-header
+
+form:
+  fields:
+    enabled:
+      type: input.checkbox
+      label: Enabled
+      description: Globally enable to the particles.
+      default: true
+      
+      
+ 
+         
+    theme:
+      type: select.select
+      label: Scrollbar Style
+      description: Select the style you wish to use.
+      placeholder: 'Select...'
+      default: style-7
+      options:
+         default: Radial Blue
+         style-1: Default
+         style-2: Simple Red
+         style-3: Simple Black
+         style-4: Black Enhanced
+         style-5: Middle Blue
+         style-6: Orange
+         style-7: Radial Blue
+         style-8: Strong Black
+         style-9: Futuristic Orange
+         style-10: Simple Chrome
+         style-11: Double Chrome
+         style-12: Green
+         style-13: Blue
+         style-14: Pink
+    copyright:
+      type: separator.note
+      class: alert alert-info
+      content: 'Developed by <a href="https://themehow.com/" target="_blank">ThemeHow.com</a><br><strong>Version: 1.0.3</strong>'
+
+ 
+ 
