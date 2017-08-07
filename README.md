@@ -20,6 +20,7 @@ Basicaly, the installation it´s veery Easy : )
 Upload in your theme folder the /particles & /css folders !
 
 Wordpress & Woocommerce : 
+
 Some like /public_html/wp-content/themes/th_heavenshop/custom/  - Here Upload both folders.
 
 Joomla 
